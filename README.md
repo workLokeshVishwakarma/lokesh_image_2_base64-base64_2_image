@@ -1,15 +1,19 @@
 # Simple steps
-`npx create-react-app ./ --use-npm`
-`amplify init`
-`npm i aws-amplify @aws-amplify/ui-react`
+`npx create-react-app ./ --use-npm`<br/>
+`amplify init`<br/>
+`npm i aws-amplify @aws-amplify/ui-react`<br/>
 
-`src/index
-import { Amplify } from 'aws-amplify';
-import awsExports from "./aws-exports";
-Amplify.configure(awsExports);`
+`src/index`<br/>
+```
+  import { Amplify } from 'aws-amplify';
+  import awsExports from "./aws-exports";
+  Amplify.configure(awsExports);
+```
 
-`amplify add hosting`
+`amplify add hosting`<br/>
 `amplify publish`
+
+<hr/>
 
 Visit [Live](https://dev.dm5g2v3qs2o5s.amplifyapp.com)
 

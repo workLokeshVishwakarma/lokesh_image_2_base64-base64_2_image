@@ -1,3 +1,18 @@
+# Simple steps
+`npx create-react-app ./ --use-npm`
+`amplify init`
+`npm i aws-amplify @aws-amplify/ui-react`
+
+`src/index
+import { Amplify } from 'aws-amplify';
+import awsExports from "./aws-exports";
+Amplify.configure(awsExports);`
+
+`amplify add hosting`
+`amplify publish`
+
+Visit [Live](https://dev.dm5g2v3qs2o5s.amplifyapp.com)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
